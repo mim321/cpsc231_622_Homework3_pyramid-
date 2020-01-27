@@ -1,0 +1,23 @@
+<html><body><font size=5>
+<pre style="font-family:courier;">
+<script>
+var tRow = 7;
+for(row=1; row <= tRow; row++) {
+ // Column have 4 parts
+ for(col=1;col<=tRow - row + 1;col++){ 
+  document.write(" "); 
+ }
+ for(col=1; col <= row ; col++) { 
+  document.write( col ); 
+ }
+ document.write( row );
+ for(col=row; col >= 1 ; col--) { 
+  document.write( col ); 
+ }
+ document.write("\n");
+}
+document.write("\n");
+document.write("Mim 6108111006");
+</script>
+</pre></font></body></html>
+
